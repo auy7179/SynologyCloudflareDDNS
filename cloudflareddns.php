@@ -56,7 +56,7 @@ if(isset($listdns['result'][0])){
         $res = cf_api_call($updateDnsURL, 'PUT', $data_update);
         echo 'good';
     } else {
-
+        # ip not update
         echo 'good';
     }
 
