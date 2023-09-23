@@ -57,8 +57,7 @@ if(isset($listdns['result'][0])){
         echo 'good';
     } else {
 
-        echo 'nochangeIP';
-        exit();
+        echo 'good';
     }
 
     
