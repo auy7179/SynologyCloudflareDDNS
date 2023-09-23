@@ -54,8 +54,8 @@ if(isset($listdns['result'][0])){
         );
 
         $res = cf_api_call($updateDnsURL, 'PUT', $data_update);
-        echo 'good';
-
+        echo 'Updated';
+        exit();
     } else {
 
         echo 'nochangeIP';
@@ -78,8 +78,8 @@ if(isset($listdns['result'][0])){
     );
 
     $res = cf_api_call($createDnsURL, 'POST', $data_create);
-    echo 'good';
-
+    echo 'Created';
+    exit();
 }
 
 
