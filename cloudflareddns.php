@@ -46,7 +46,7 @@ if(isset($listdns['result'][0])){
         $updateDnsURL = "https://api.cloudflare.com/client/v4/zones/$account/dns_records/$recordID";
 
         $data_update = array(
-            'type' => 'A',
+            'type' => $recordType,
             'name' => $hostname,
             'content' => $ip,
             'ttl' => (int)$ttl,
@@ -70,7 +70,7 @@ if(isset($listdns['result'][0])){
     $createDnsURL = "https://api.cloudflare.com/client/v4/zones/$account/dns_records";
 
     $data_create = array(
-        'type' => 'A',
+        'type' => $recordType,
         'name' => $hostname,
         'content' => $ip,
         'ttl' => (int)$ttl,
