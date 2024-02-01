@@ -9,7 +9,7 @@ sudo -i
 3. Download cloudflareddns.php to /usr/syno/bin/ddns/cloudflareddns.php
 
 ```code
-wget https://raw.githubusercontent.com/Freedomlover/SynologyCloudflareDDNS/main/cloudflareddns.php -O /usr/syno/bin/ddns/cloudflareddns.php
+wget https://raw.githubusercontent.com/auy7179/SynologyCloudflareDDNS/main/cloudflareddns.php -O /usr/syno/bin/ddns/cloudflareddns.php
 chmod +x /usr/syno/bin/ddns/cloudflareddns.php
 ```
 
