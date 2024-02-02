@@ -11,7 +11,7 @@ $pwd = (string)$argv[2];
 $hostname = (string)$argv[3];
 $ip = (string)$argv[4];
 $ttl = 1;
-$proxied = false;
+$proxied = true;
 $recordType = 'A';
 
 // check the hostname contains '.'
